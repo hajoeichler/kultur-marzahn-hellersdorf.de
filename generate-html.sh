@@ -3,5 +3,6 @@ echo "<style type='text/css'>"
 cat master-detail.css
 echo "</style>"
 echo "<script type='text/javascript'>"
+cat data.json
 cat master-detail.js
 echo "</script>"
