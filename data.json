@@ -3,7 +3,8 @@ var masterDetailsData = {
     "Ortsteile": {
       "Biesdorf": {
         "Eins": "1",
-        "Zwei": "2"
+        "Zwei": "2",
+        "Drei": "1212"
       },
       "Hellersdorf": {
       },
