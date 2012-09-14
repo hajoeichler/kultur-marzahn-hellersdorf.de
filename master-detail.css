@@ -1,2 +1,4 @@
-div#selections table { width:90% }
-td#selections-master { vertical-align:top }
+div#selections table { width:98%; margin-left:1%; margin-right:1% }
+td#selections-master { width:33%; vertical-align:top }
+td#selections-detail { width:33%; vertical-align:top }
+td#selections-level2 { width:33%; vertical-align:top }
