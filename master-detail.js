@@ -38,7 +38,7 @@ masterDetails = {
     masterDetails.createLink(property, property, "updateDetail", masterDetails.masterQuery);
   },
   createLinkToLevel2: function(name, sel) {
-    masterDetails.createLink(name, sel + '", "' + name, "updateLevel2", masterDetails.detailQuery);
+    masterDetails.createLink(name, sel + "', '" + name, "updateLevel2", masterDetails.detailQuery);
   },
   createLinkToPage: function(name, id) {
     masterDetails.createLink(name, id, "openPageWithId", masterDetails.detailQuery);
@@ -47,12 +47,7 @@ masterDetails = {
     masterDetails.createLink(name, id, "openPageWithId", masterDetails.level2Query);
   },
   createLink: function(name, id, mdFunction, baseQuery) {
-    var div = document.createElement('div');
-    var ahref = document.createElement('a');
-    ahref.textContent = name;
-    div.appendChild(ahref);
-    ahref.href = 'javascript:masterDetails.' + mdFunction + '("' + id +'");';
-    jQuery(baseQuery).append(div);
+    jQuery(baseQuery).append('<div><a href="javascript:masterDetails.'+mdFunction+'(\''+id+'\');">'+name+'</a></div>');
   },
   openPageWithId: function(pageId) {
     if (pageId !== '') {
