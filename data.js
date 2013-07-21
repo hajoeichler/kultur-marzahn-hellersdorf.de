@@ -26,6 +26,7 @@ var masterDetailsData = {
     "Ereignisse" : {
       "Siedlungsgeschichte": {
 	    "Berliner Balkon": "340",
+		"Vorgeschichtliche Wohnbauten Biesdorf": "251",
       },
       "Erster Weltkrieg": {
       },
