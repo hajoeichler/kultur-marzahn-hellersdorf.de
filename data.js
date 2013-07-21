@@ -4,7 +4,7 @@ var masterDetailsData = {
       "Biesdorf": {
         "Eins": "1",
         "Zwei": "2",
-        "Drei": "1212"
+        "Drei": "1212",
       },
       "Hellersdorf": {
 	    "Eins": "1",
@@ -21,7 +21,7 @@ var masterDetailsData = {
     },
     "Personen": {
       "Drei": "3",
-      "Vier": "4"
+      "Vier": "4",
     },
     "Ereignisse" : {
       "Siedlungsgeschichte": {
