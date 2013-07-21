@@ -7,12 +7,16 @@ var masterDetailsData = {
         "Drei": "1212"
       },
       "Hellersdorf": {
+	    "Eins": "1",
       },
       "Kaulsdorf": {
+	    "Eins": "1",
       },
       "Mahlsdorf": {
+	    "Eins": "1",
       },
       "Marzahn": {
+	    "Eins": "1",
       }
     },
     "Personen": {
@@ -21,6 +25,7 @@ var masterDetailsData = {
     },
     "Ereignisse" : {
       "Siedlungsgeschichte": {
+	    "Berliner Balkon": "340",
       },
       "Erster Weltkrieg": {
       },
